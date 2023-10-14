@@ -39,7 +39,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Which license would you like to use for this project?",
-        choices: ["MIT License", "Apache License 2.0", "GNU General Puplic License v3.0", "Mozilla Public License 2.0", "None"],
+        choices: ['Apache 2.0','BSD 3-Clause', 'GNU GPL v3', 'GNU GPL v2', 'GNU AGPL v3', 'GNU LGPL v3', 'GNU FDL v1.3', 'IBM Public License Version 1.0'],
     },
     {
         type: "input",
